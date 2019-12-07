@@ -6,14 +6,14 @@ ignored-classes=
 
 # http://pylint.pycqa.org/en/latest/user_guide/message-control.html
 disable=missing-docstring,
-    #F,
-    #E,
-    #E1101,
-    #W,
-    #R,
-    #C,
+    #F,     # fatal
+    #E,     # errors
+    #E1101, # no-member
+    #W,     # warnings
+    #R,     # refactoring
+    #C,     # convention
 
-#enable=wildcard-import,
+enable=wildcard-import,
 #       W0403
 
 [REPORTS]
