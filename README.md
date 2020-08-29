@@ -3,6 +3,9 @@ A template for new Python projects
 
 # How to run tools against the code
 
+    # create virual environment
+    python -m venv venv
+    
     # install to current environment (with current dir at top of repo) 
     pip install .     # "static" install
     pip install -e .  # "editable" install (setup.py handles source being under `src/`)
