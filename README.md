@@ -3,8 +3,9 @@ A template for new Python projects
 
 # How to run tools against the code
 
-    # create virual environment
+    # create and activate virtual environment
     python -m venv venv
+    source venv/Scripts/activate
     
     # install to current environment (with current dir at top of repo) 
     pip install .     # "static" install
