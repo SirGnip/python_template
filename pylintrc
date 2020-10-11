@@ -19,6 +19,7 @@ enable=wildcard-import,
 [REPORTS]
 # Template used to display messages. This is a python new-style format string
 # used to format the message information. See doc for all details.
+# If pylint is run from PyCharm's Terminal, the output has clickable hyperlinks into the source code
 msg-template={abspath}:{line} {msg_id} ({symbol}) {msg} http://pylint-messages.wikidot.com/messages:{msg_id}
 
 # Set the output format. Available formats are text, parseable, colorized, json
