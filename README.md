@@ -11,7 +11,7 @@ A template for new Python projects
     pip install .     # "static" install
     pip install -e .  # "editable" install (setup.py handles source being under `src/`)
 
-    # run app from instal
+    # run app from install
     python -m gnp
     
     # run app directly from local repo (with current dir at top of repo)
