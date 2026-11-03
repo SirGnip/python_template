@@ -28,7 +28,7 @@ setuptools.setup(
         # 3rd party dependencies
         "pytest==5.3.1",
         "pytest-cov==2.8.1",
-        "pylint==2.4.4",
+        "pylint==4.0.9",
         "mypy==0.750",
         # personal dependencies
         #"mylib @ http://github.com/SirGnip/mylib/tarball/0.0.1#egg=package-1.0",
